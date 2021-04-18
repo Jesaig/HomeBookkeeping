@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="diagramColor1">#FE2E2E</color>
+    <color name="diagramColor2">#F7FE2E</color>
+    <color name="diagramColor3">#64FE2E</color>
+    <color name="diagramColor4">#2EFEF7</color>
+    <color name="diagramColor5">#0040FF</color>
+    <color name="diagramColor6">#D358F7</color>
+    <color name="diagramColor7">#F6CEE3</color>
+    <color name="diagramColor8">#E6E6E6</color>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HomeBuh</string>
+    <string name="title_activity_category_list">Список категорий</string>
+    <string name="title_activity_operation_list">Доходы и расходы</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="measures">
+        <item>Шт.</item>
+        <item>Уп.</item>
+        <item>Кг.</item>
+        <item>Л.</item>
+        <item>М.</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

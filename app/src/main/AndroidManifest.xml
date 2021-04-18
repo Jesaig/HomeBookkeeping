@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homebuh">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_cover300"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:label="Домашняя бухгалтерия"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AccountEditActivity" />
+        <activity android:name=".CategoryEditActivity" />
+        <activity
+            android:name=".CategoryListActivity"
+            android:label="@string/title_activity_category_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AccountListActivity" />
+        <activity
+            android:name=".OperationListActivity"
+            android:label="@string/title_activity_operation_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".OperationEditActivity" android:label="Редактирование операции"></activity>
+
+        <meta-data android:name="DATABASE" android:value="homebuh.db" />
+        <meta-data android:name="VERSION" android:value="2" />
+        <meta-data android:name="QUERY_LOG" android:value="true" />
+        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="com.example.homebuh.entity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ru.developer_android.school.datastorage.FilesActivity">
+
+    <item android:id="@+id/action_operation_save" android:title="Сохранить"
+        android:icon="@drawable/save32"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+    <item android:id="@+id/action_operation_delete" android:title="Удалить"
+        android:icon="@drawable/delete32"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+    <item android:id="@+id/action_operation_cancel" android:title="Отмена"
+        android:icon="@drawable/cancel32"
+        android:orderInCategory="100" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/report24"
+            android:title="Отчёты" />
+        <item
+            android:id="@+id/nav_operation"
+            android:icon="@drawable/operation24"
+            android:title="Операции" />
+        <item
+            android:id="@+id/nav_accounts"
+            android:icon="@drawable/account24"
+            android:title="Счета" />
+        <item
+            android:id="@+id/nav_measures"
+            android:icon="@drawable/measure24"
+            android:title="Ед. изм." />
+        <item
+            android:id="@+id/nav_cats"
+            android:icon="@drawable/list24"
+            android:title="Категории" />
+
+    </group>
+
+    <item android:title="Помощь">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="О программе" />
+        </menu>
+    </item>
+
+</menu>
